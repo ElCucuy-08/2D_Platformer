@@ -1,0 +1,4 @@
+repository "Arcada_on_Android 2026-03-03_16-14-07/Arcada_on_Android@7971812542901@cloud"
+  path "/"
+    br "/main"
+    co "/main"
