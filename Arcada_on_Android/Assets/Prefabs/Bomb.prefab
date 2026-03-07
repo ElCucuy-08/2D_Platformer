@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1231519745941905191}
   - component: {fileID: 3422574012275346372}
   - component: {fileID: -3747964790439037269}
+  - component: {fileID: 1317464854521392634}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Bomb
@@ -172,3 +173,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aliveTimer: 7
+--- !u!114 &1317464854521392634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8784237816446785348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a8e1e7ec7d6ef45b5b1665c215eef2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

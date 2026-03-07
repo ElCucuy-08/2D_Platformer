@@ -56,7 +56,7 @@ public class ItemChecker : MonoBehaviour
         // Если поймали объект с тегом "Bad", уменьшаем счёт на 10
         if (other.gameObject.tag == "Bomb")
         {
-            score -= 10;
+            //score -= 10;
             // Убираем предмет со сцены
             Destroy(other.gameObject);
         }

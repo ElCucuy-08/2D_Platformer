@@ -410,6 +410,8 @@
 "Assets/Another/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/Another/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
 "Assets/Scripts/Button_Play.cs"
+"Assets/Scripts/Enemy.cs"
+"Assets/Scripts/Heart_System.cs"
 "Assets/Scripts/ItemChecker.cs"
 "Assets/Scripts/ItemSpawn.cs"
 "Assets/Scripts/PauseMenu.cs"
