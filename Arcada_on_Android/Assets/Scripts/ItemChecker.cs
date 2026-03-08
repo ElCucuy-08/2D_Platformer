@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ItemChecker : MonoBehaviour
@@ -32,7 +33,10 @@ public class ItemChecker : MonoBehaviour
         // Находим компонент AudioSource на этом объекте
         audioSource = GetComponent<AudioSource>();
     }
-
+    private void Update()
+    {
+        LoadMenu();
+    }
     void OnTriggerEnter2D(Collider2D other)
     {
         // Воспроизводим звук в зависимости от тега
@@ -56,12 +60,20 @@ public class ItemChecker : MonoBehaviour
         // Если поймали объект с тегом "Bad", уменьшаем счёт на 10
         if (other.gameObject.tag == "Bomb")
         {
-            //score -= 10;
+            score -= 10;
             // Убираем предмет со сцены
             Destroy(other.gameObject);
         }
 
         // Обновляем текст на Canvas, чтобы показать новый счёт
         tmpText.text = score.ToString();
+    }
+    public void LoadMenu()
+    {
+        Time.timeScale = 1f;
+        if (score <= -30)
+        {
+            SceneManager.LoadScene("MainMenu");// Загрузка сцены меню
+        }
     }
 }
