@@ -71,7 +71,7 @@ public class ItemChecker : MonoBehaviour
     public void LoadMenu()
     {
         Time.timeScale = 1f;
-        if (score <= -30)
+        if (score <= -1)
         {
             SceneManager.LoadScene("MainMenu");// Загрузка сцены меню
         }
