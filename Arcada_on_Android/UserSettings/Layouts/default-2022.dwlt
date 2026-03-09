@@ -395,7 +395,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Audio
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -403,15 +403,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Audio
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GitHub\2D_Platformer\Arcada_on_Android
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 42640000
-    m_LastClickedID: 25666
+    m_SelectedIDs: 4a640000
+    m_LastClickedID: 25674
     m_ExpandedIDs: 00000000326400004264000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -537,7 +537,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 191
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -580,9 +580,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5c720000
-      m_LastClickedID: 29276
-      m_ExpandedIDs: 6ea0ffffb6a0ffff86a2ffffa2a2ffff58b4ffff92b4ffff62b6ffff7eb6ffff14fbfffffa620000726a0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: dce9ffff24eafffff4ebffff10ecffff64f3ffffaef3ffff7ef5ffff9af5ffffe8f9ffff14fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -975,9 +975,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.0116996765, y: -2.1550999, z: 0}
+    m_Target: {x: 1014.8279, y: 504.53296, z: -6.289135}
     speed: 2
-    m_Value: {x: 0.0116996765, y: -2.1550999, z: 0}
+    m_Value: {x: 1014.8279, y: 504.53296, z: -6.289135}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1027,9 +1027,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 19.196634
+    m_Target: 648.10895
     speed: 2
-    m_Value: 19.196634
+    m_Value: 648.10895
   m_Ortho:
     m_Target: 1
     speed: 2

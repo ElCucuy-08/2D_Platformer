@@ -1,306 +1,322 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1773087517595644, "dur":929, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1773087517596582, "dur":108, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1773087517596727, "dur":216, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1773087517596953, "dur":2201, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1773087517599155, "dur":77978, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1773087517677134, "dur":159, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1773087517677412, "dur":815, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1773087517597340, "dur":1863, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1773087517599204, "dur":2234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1773087517601440, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1773087517606955, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1773087517607765, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1773087517607965, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1773087517609694, "dur":2767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":1, "ts":1773087517612504, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1773087517613837, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1773087517613987, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":1, "ts":1773087517615394, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1773087517615492, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1773087517616784, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1773087517617848, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1773087517618065, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1773087517619479, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1773087517620813, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1773087517622026, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1773087517622167, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1773087517623443, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1773087517625038, "dur":4854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1773087517629903, "dur":47226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1773087517597191, "dur":1976, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1773087517599169, "dur":211, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1773087517599381, "dur":2077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1773087517601501, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1773087517607427, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1773087517608288, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1773087517609561, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1773087517609774, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1773087517611521, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1773087517611746, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":2, "ts":1773087517613248, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1773087517613340, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":2, "ts":1773087517614523, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1773087517614596, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1773087517615822, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1773087517617084, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1773087517617173, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1773087517618524, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1773087517618661, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1773087517619935, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1773087517620160, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1773087517621271, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1773087517622434, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1773087517622725, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1773087517623918, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1773087517624093, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1773087517625377, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1773087517626421, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1773087517628006, "dur":49128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1773087517597185, "dur":1978, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1773087517599165, "dur":237, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1773087517599402, "dur":2031, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1773087517601637, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517601723, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517601859, "dur":270, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517602132, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517602193, "dur":182, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517602377, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517602429, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517602554, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517602613, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517602793, "dur":313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517603107, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517601435, "dur":1941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":3, "ts":1773087517603477, "dur":3462, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1773087517607808, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517608523, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517609451, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1773087517609749, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517610734, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517612587, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1773087517612729, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517613767, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1773087517613985, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517615371, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517616753, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1773087517616883, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517618349, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517620025, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1773087517620165, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517621441, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1773087517621671, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517622938, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1773087517624458, "dur":11371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1773087517635844, "dur":41291, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1773087517597284, "dur":1908, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1773087517599193, "dur":273, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1773087517599466, "dur":1987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1773087517601490, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1773087517606987, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1773087517608327, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1773087517609763, "dur":1872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1773087517611650, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1773087517611749, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":4, "ts":1773087517612590, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1773087517612721, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":4, "ts":1773087517614090, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1773087517615373, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1773087517616772, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1773087517617007, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1773087517617913, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1773087517618068, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1773087517619447, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1773087517619681, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1773087517620885, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1773087517620986, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1773087517622422, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1773087517622722, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1773087517623809, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1773087517625125, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":4, "ts":1773087517627195, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1773087517628856, "dur":48279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1773087517597169, "dur":1990, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1773087517599161, "dur":2267, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1773087517601705, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":5, "ts":1773087517601834, "dur":239, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1773087517602074, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1773087517602170, "dur":174, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":5, "ts":1773087517602408, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1773087517602516, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":5, "ts":1773087517602579, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
-,{ "pid":12345, "tid":5, "ts":1773087517602717, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1773087517602790, "dur":314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1773087517603105, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":5, "ts":1773087517601462, "dur":1926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1773087517603619, "dur":72251, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1773087517676661, "dur":448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1773087517597278, "dur":1909, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1773087517599189, "dur":239, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1773087517599429, "dur":2027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1773087517606967, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1773087517608273, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1773087517609685, "dur":3517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1773087517613215, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1773087517613343, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1773087517614249, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1773087517614457, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1773087517615820, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1773087517615953, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1773087517617262, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1773087517618843, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1773087517619003, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1773087517620379, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1773087517620573, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1773087517622000, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1773087517623441, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1773087517624705, "dur":4535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":6, "ts":1773087517629252, "dur":47880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1773087517597235, "dur":1945, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1773087517599181, "dur":219, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1773087517599401, "dur":2049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1773087517607012, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1773087517609186, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1773087517609873, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1773087517610745, "dur":2585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":7, "ts":1773087517613362, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1773087517613483, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
-,{ "pid":12345, "tid":7, "ts":1773087517614850, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":7, "ts":1773087517616249, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1773087517617392, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1773087517617548, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1773087517618968, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1773087517620342, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1773087517620409, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1773087517621755, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1773087517623031, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1773087517624241, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1773087517624324, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1773087517625488, "dur":3415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/resources.assets" }}
-,{ "pid":12345, "tid":7, "ts":1773087517628912, "dur":48228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1773087517597207, "dur":1964, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1773087517599172, "dur":247, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1773087517599419, "dur":2023, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1773087517601444, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":8, "ts":1773087517601497, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1773087517606909, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":8, "ts":1773087517607882, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1773087517609159, "dur":3796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1773087517612980, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1773087517613141, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":8, "ts":1773087517614191, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.Collections.dll" }}
-,{ "pid":12345, "tid":8, "ts":1773087517615546, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1773087517615632, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1773087517616876, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1773087517617035, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1773087517618479, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1773087517619939, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1773087517620163, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1773087517621381, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1773087517622835, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1773087517623910, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1773087517625371, "dur":4085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1773087517629468, "dur":47706, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1773087517597229, "dur":1946, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1773087517599177, "dur":233, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1773087517599410, "dur":2021, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1773087517606967, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/app.info" }}
-,{ "pid":12345, "tid":9, "ts":1773087517608073, "dur":529, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1773087517608909, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1773087517609786, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":9, "ts":1773087517612027, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":9, "ts":1773087517613690, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1773087517613794, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":9, "ts":1773087517615261, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":9, "ts":1773087517616306, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1773087517616437, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1773087517617736, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1773087517617870, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1773087517619288, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1773087517619380, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1773087517620457, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1773087517620571, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1773087517621968, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1773087517623361, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1773087517624703, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":9, "ts":1773087517625686, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/level1" }}
-,{ "pid":12345, "tid":9, "ts":1773087517628119, "dur":49012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1773087517597249, "dur":1934, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1773087517599185, "dur":238, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1773087517599423, "dur":2022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1773087517601448, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":10, "ts":1773087517601501, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1773087517606898, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":10, "ts":1773087517607753, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1773087517607953, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1773087517609366, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":10, "ts":1773087517610378, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1773087517610982, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":10, "ts":1773087517612725, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":10, "ts":1773087517614269, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":10, "ts":1773087517615720, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":10, "ts":1773087517617065, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1773087517617159, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1773087517618477, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1773087517619811, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1773087517620880, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1773087517620984, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1773087517622357, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1773087517623672, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1773087517623807, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1773087517625076, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":10, "ts":1773087517626813, "dur":3340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1773087517630166, "dur":46962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1773087517597303, "dur":1896, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1773087517599199, "dur":2249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1773087517606978, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1773087517608193, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1773087517608290, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1773087517609704, "dur":2738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1773087517612513, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":11, "ts":1773087517613603, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1773087517613717, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":11, "ts":1773087517614784, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1773087517614852, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":11, "ts":1773087517616241, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1773087517616446, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1773087517617736, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1773087517617866, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1773087517619208, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1773087517619383, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1773087517620457, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1773087517620568, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1773087517621873, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1773087517623258, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1773087517624419, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":11, "ts":1773087517625332, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1773087517625607, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":11, "ts":1773087517627391, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":11, "ts":1773087517628691, "dur":48449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1773087517597297, "dur":1899, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1773087517599233, "dur":2203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1773087517601610, "dur":6030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1773087517607942, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1773087517609116, "dur":274, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":12, "ts":1773087517609116, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android.exe" }}
-,{ "pid":12345, "tid":12, "ts":1773087517609414, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android.exe" }}
-,{ "pid":12345, "tid":12, "ts":1773087517610152, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1773087517610638, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":12, "ts":1773087517612016, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":12, "ts":1773087517613320, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1773087517613466, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1773087517614729, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":12, "ts":1773087517615878, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1773087517615956, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1773087517617231, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1773087517617338, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1773087517618969, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1773087517620242, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1773087517621441, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1773087517621672, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1773087517623008, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1773087517623169, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1773087517624419, "dur":11849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":12, "ts":1773087517636282, "dur":40860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1773087517679738, "dur":649, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1773087769347942, "dur":1021, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773087769348971, "dur":121, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773087769349128, "dur":205, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773087769350028, "dur":1387, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1773087769349347, "dur":3326, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773087769352674, "dur":78294, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773087769430969, "dur":248, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773087769431289, "dur":773, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1773087769349473, "dur":3205, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773087769352680, "dur":2361, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773087769355292, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773087769355382, "dur":163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773087769355546, "dur":235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773087769355866, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773087769356094, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773087769356198, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773087769356273, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773087769356422, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773087769356511, "dur":264, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773087769356776, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773087769355093, "dur":1939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1773087769357253, "dur":72424, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1773087769430495, "dur":443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1773087769349490, "dur":3192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773087769352683, "dur":245, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773087769352929, "dur":2119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773087769360959, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1773087769361707, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1773087769362748, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773087769363706, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773087769363705, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773087769363832, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773087769364059, "dur":2017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773087769366116, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773087769366321, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773087769367530, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773087769367622, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773087769368801, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773087769368922, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773087769369747, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773087769369899, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773087769371149, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773087769371226, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773087769372747, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773087769372978, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773087769374456, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773087769375991, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773087769377367, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773087769377482, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773087769378929, "dur":5415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1773087769384356, "dur":46599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773087769349572, "dur":3132, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773087769352706, "dur":233, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773087769352940, "dur":2106, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773087769355266, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769355369, "dur":175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769355545, "dur":240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769355866, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769356080, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769356193, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769356268, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769356419, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769356506, "dur":266, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769356773, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GitHub\\2D_Platformer\\Arcada_on_Android\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769355048, "dur":1968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":3, "ts":1773087769357117, "dur":3407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773087769360862, "dur":522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769361420, "dur":632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1773087769362117, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1773087769363457, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773087769363727, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769365454, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773087769365653, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769366572, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773087769366681, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769368051, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773087769368139, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769369425, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773087769369502, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769370661, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773087769370895, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769372181, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769373559, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773087769373698, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769375254, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769376578, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773087769376785, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769377974, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773087769378055, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773087769379276, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1773087769380338, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1773087769382256, "dur":48705, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773087769349508, "dur":3177, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773087769352687, "dur":246, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773087769352933, "dur":2189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773087769361401, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1773087769362902, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1773087769364408, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773087769364596, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773087769365542, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773087769365736, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773087769367704, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773087769367796, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773087769369173, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773087769370140, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773087769370376, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773087769371653, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773087769371862, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773087769373372, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773087769374509, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773087769374671, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773087769376101, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773087769376268, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773087769377587, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773087769377781, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773087769379010, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773087769379198, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1773087769381073, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1773087769382371, "dur":48598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773087769349530, "dur":3159, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773087769352691, "dur":251, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773087769352943, "dur":2110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773087769355054, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1773087769355107, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773087769360765, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1773087769362075, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1773087769363340, "dur":2805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773087769366158, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773087769366324, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773087769367745, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773087769369040, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773087769369182, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773087769370586, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773087769371696, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773087769371856, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773087769373590, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773087769374991, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773087769376426, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773087769376516, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773087769377573, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773087769378992, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1773087769380390, "dur":3446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1773087769383856, "dur":47102, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773087769349552, "dur":3142, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773087769352695, "dur":231, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773087769352926, "dur":2119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773087769355337, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1773087769356312, "dur":4253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773087769360970, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1773087769361829, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773087769362099, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1773087769363407, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773087769363727, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773087769365453, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773087769365662, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773087769366939, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773087769367117, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773087769368205, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773087769368288, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773087769369572, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773087769369679, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773087769371078, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773087769372570, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773087769373838, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773087769375494, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773087769375768, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773087769377078, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773087769377276, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773087769378620, "dur":5628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1773087769384265, "dur":46694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773087769349565, "dur":3134, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773087769352701, "dur":246, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773087769352948, "dur":2175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773087769361792, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1773087769363311, "dur":3267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773087769366592, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773087769366685, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773087769368056, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773087769369203, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773087769369305, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773087769370588, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773087769372052, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773087769372177, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773087769373374, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773087769374895, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773087769376358, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773087769376520, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773087769377834, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773087769377975, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773087769379199, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773087769379304, "dur":2035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1773087769381352, "dur":49615, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773087769349589, "dur":3120, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773087769352710, "dur":228, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773087769352938, "dur":2120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773087769355095, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773087769361358, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1773087769362384, "dur":409, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773087769363049, "dur":651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1773087769363745, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773087769365339, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773087769366389, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773087769366494, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773087769367812, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773087769367965, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773087769369214, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773087769369350, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773087769370664, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773087769370893, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773087769372154, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773087769372288, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773087769373701, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773087769374999, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773087769376612, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773087769376784, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773087769378406, "dur":11998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773087769390418, "dur":40546, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773087769349610, "dur":3103, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773087769352715, "dur":272, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773087769352987, "dur":2068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773087769361392, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1773087769362611, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773087769362764, "dur":3941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773087769366724, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773087769366873, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773087769368048, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773087769368141, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773087769369598, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773087769370945, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773087769371082, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773087769372297, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773087769373762, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773087769373926, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773087769375374, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773087769376837, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773087769376972, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773087769378036, "dur":290, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773087769378339, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773087769379387, "dur":4519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1773087769383917, "dur":47045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773087769349620, "dur":3097, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773087769352754, "dur":2296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773087769355052, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1773087769355108, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773087769360777, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1773087769362064, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1773087769362768, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773087769363312, "dur":2610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773087769365935, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773087769366006, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773087769367737, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773087769369026, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773087769369174, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773087769370476, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773087769371663, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773087769371859, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773087769373136, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773087769373208, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773087769374419, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773087769374668, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773087769376102, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773087769376270, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773087769377478, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773087769378598, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1773087769379742, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1773087769381191, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1773087769382367, "dur":48589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773087769349634, "dur":3087, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773087769352721, "dur":2342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773087769361387, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1773087769362713, "dur":272, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":11, "ts":1773087769362712, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android.exe" }}
+,{ "pid":12345, "tid":11, "ts":1773087769363009, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android.exe" }}
+,{ "pid":12345, "tid":11, "ts":1773087769364108, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773087769364204, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773087769365526, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773087769365722, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773087769367099, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773087769367205, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773087769368562, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773087769368683, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773087769370066, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773087769370174, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773087769371537, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773087769371657, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773087769372794, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773087769372980, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773087769374316, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773087769374457, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773087769375845, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773087769375984, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773087769377098, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773087769378503, "dur":11912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1773087769390426, "dur":40540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773087769349649, "dur":3076, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773087769352725, "dur":2322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773087769355550, "dur":5523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1773087769361090, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773087769361366, "dur":621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1773087769362001, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773087769362092, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1773087769363714, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773087769365898, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773087769367177, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773087769367358, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773087769368593, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773087769368684, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773087769369774, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773087769371129, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773087769371229, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773087769372721, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773087769374162, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773087769374251, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773087769375494, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773087769375770, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773087769376971, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773087769378404, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1773087769379447, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DRAGO/Desktop/MaxLine/Arcada_on_Android_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1773087769381410, "dur":49555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773087769433614, "dur":704, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
