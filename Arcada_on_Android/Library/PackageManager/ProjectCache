@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639081404921371638
-    m_Hash: 3793394927
+      ticks: 639089145825848183
+    m_Hash: 3250250720
   m_LockFileStatus:
     m_FilePath: D:/GitHub/2D_Platformer/Arcada_on_Android/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639081404921532476
-    m_Hash: 1038328457
+      ticks: 639089145825848183
+    m_Hash: 2116123706
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -3536,6 +3536,7 @@ m_ResolvedPackages:
     - 5.0.3
     - 5.1.0
     - 5.1.1
+    - 6.0.0
     compatible:
     - 5.1.0
     - 5.1.1
@@ -4185,6 +4186,7 @@ m_ResolvedPackages:
     - 8.0.0
     - 8.0.1
     - 8.0.2
+    - 8.88.0-exp.1
     compatible:
     - 3.1.3
     recommended: 3.1.3
