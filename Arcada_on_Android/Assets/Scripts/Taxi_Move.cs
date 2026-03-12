@@ -8,7 +8,7 @@ public class Taxi_Move : MonoBehaviour
     Animator anim;
     float hor;
     Vector3 size, inversize;
-
+    public Joystick joystick;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -19,7 +19,7 @@ public class Taxi_Move : MonoBehaviour
 
     private void Update()
     {
-        hor = Input.GetAxis("Horizontal");
+        hor = joystick.Horizontal;
     }
     private void FixedUpdate()
     {
